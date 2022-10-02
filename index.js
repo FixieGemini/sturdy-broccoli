@@ -6,12 +6,6 @@ const { default: Choices } = require('inquirer/lib/objects/choices');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {   
-        message: 'Would you like to include a license?',
-        name: 'license',
-        type: 'list',
-        choices: ['MIT', 'Apache', 'Mozilla', 'GNU']
-    },
     {
         message: 'What is the title of your project?',
         name: 'title',

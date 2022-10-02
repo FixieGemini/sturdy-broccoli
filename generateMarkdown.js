@@ -18,16 +18,22 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## ${data.description}
+  ## Description
+  ${data.description}
 
-  ## ${data.installation}
+  ## Installation
+  ${data.installation}
 
-  ## ${data.usage}
+  ## Usage
+  ${data.usage}
 
-  ## ${data.contribution}
+  ## Contribution
+  ${data.contribution}
 
-  ## ${data.testing}
+  ## Testing
+  ${data.testing}
 
+  ## License and Badge
   ${renderLicenseBadge(data)}
 
   ${renderLicenseLink(data)}
